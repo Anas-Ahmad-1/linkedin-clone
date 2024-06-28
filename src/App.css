@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+h1::after{
+  content: " B4F";
+  color: blue;
+}
+h1::before{
+  content: "Good Morning ";
+  color: red;
+}
